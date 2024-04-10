@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="./dummy.css">
+    
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha384-GCmXbQPQBhY6XjvU2AS8DJzc8H+QG9j5faeDwSx4xstkzqqlil2kPB6zr+5eiKSe" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/all.min.css">
+   
+    <title>Sakha Home Page</title> 
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="./logo.png" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">Sakha</span>
+                    <!-- <span class="profession">Spiritual Booster</span> -->
+                </div>
+            </div>
+            <i class='bx bx-chevron-right toggle'></i>
+            
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="fas fa-om icon"></i>
+                            <span class="text nav-text">Meditation</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="fas fa-gamepad icon"></i>
+                            <span class="text nav-text">Game</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="fas fa-book icon"></i>
+                            <span class="text nav-text">Books</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class="fas fa-comments icon"></i>
+                            <span class="text nav-text">Chat</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+
+
+    <!-- working for bottom navbar -->
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="#">
+                    <span class="icon">
+                        <i class='bx bx-home-alt' ></i>
+                    </span>
+                    <span class="text">Home</span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <i class="fas fa-om"></i>
+                    </span>
+                    <span class="text">Meditation</span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <i class="fas fa-gamepad"></i>
+                    </span>
+                    <span class="text">Games</span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <i class="fas fa-book"></i>
+                    </span>
+                    <span class="text">Books</span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <i class="fas fa-comments"></i>
+                    </span>
+                    <span class="text">Chat</span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <i class='bx bx-log-out' ></i>
+                    </span>
+                    <span class="text">Logout</span>
+                    <span class="circle"></span>
+                </a>
+            </li>
+            <div class="bottom-dark-mode">
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="checkbox-label">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                  <span class="ball"></span>
+                </label>
+              </div>
+            <div class="indicator"></div>
+        </ul>
+    </div>
+
+    <section class="home">
+        <div class="container">
+            <div class="text-section">
+                <h1 style="color: darkorange;">Sakha</h1>
+                <p style="color: darkorange;">Your Guiding Light in a World Full of Distractions. We Provide the Direction you need to Transfrom Your Life.</p>
+            </div>
+            <div class="image-section">
+                <img src="./logo.png" alt="Sakha Logo" style="width:100%; max-width: 200px;">
+            </div>
+        </div>
+        <b><u>
+                <h2>Explore What Sakha Offers:</h2>
+            </u> </b>
+
+        <h3>Are you feeling bored or seeking guidance? <br>Chat with <span class="gradient-text">Sakha Ai</span> for
+            entertaining conversations and insightful responses drawn from scriptures, offering solutions to life's
+            queries.</h3>
+        <i>
+            <h3>"Where boredom ends, wisdom begins."</h3>
+        </i>
+        <div class="Sk-box">
+            <div class="Sk-header">Preview access</div>
+            <div class="Sk-title"> <span class="gradient-text">Chat with Sakha</span></div>
+
+
+            <div class="Sk-description">
+
+                <div class="chat-interface" style="background-color: black;">
+                    <!-- User's message -->
+                    <div class="message user">
+                        <div class="message-content">haribol
+                        </div>
+                        <img src="./man1.png" alt="User" class="avatar">
+                    </div>
+                    
+                    <!-- Sakha's response -->
+                    <div class="message sakha">
+                        <img src="./krishna1.png" alt="Sakha" class="avatar">
+                        <div class="message-content">Haribol. I am servant of Krishna. I have no capacity, but I serve Krishna to my best knowledge. Just like you are serving Krishna to your best knowledge. But Krishna is so kind. He sees the service, not the capacity. I have no capacity. I simply depend on Krishna.</div>
+                    </div>
+
+                    <!-- User's message -->
+                    <div class="message user">
+                        <div class="message-content">What are you doing?
+                        </div>
+                        <img src="./man1.png" alt="User" class="avatar">
+                    </div>
+                    
+                    <!-- Sakha's response -->
+                    <div class="message sakha">
+                        <img src="./krishna1.png" alt="Sakha" class="avatar">
+                        <div class="message-content">I am just experimenting.
+                        </div>
+                    </div>
+
+                    <!-- User's message -->
+                    <div class="message user">
+                        <div class="message-content">what are you experimenting ?</div>
+                        <img src="./man1.png" alt="User" class="avatar">
+                    </div>
+                    
+                    <!-- Sakha's response -->
+                    <div class="message sakha">
+                        <img src="./krishna1.png" alt="Sakha" class="avatar">
+                        <div class="message-content">I am experimenting with drugs. </div>
+                    </div>
+
+                    <!-- User's message -->
+                    <div class="message user">
+                        <div class="message-content">seriously drugs?</div>
+                        <img src="./man1.png" alt="User" class="avatar">
+                    </div>
+                    
+                    <!-- Sakha's response -->
+                    <div class="message sakha">
+                        <img src="./krishna1.png" alt="Sakha" class="avatar">
+                        <div class="message-content">what is this, serious drugs?</div>
+                    </div>
+
+                    <!-- User's message -->
+                    <div class="message user">
+                        <div class="message-content">what drugs? that is illegal.</div>
+                        <img src="./man1.png" alt="User" class="avatar">
+                    </div>
+                    
+                    <!-- Sakha's response -->
+                    <div class="message sakha">
+                        <img src="./krishna1.png" alt="Sakha" class="avatar">
+                        <div class="message-content">No, no. Not that kind of drugs. This is spirinal drug I drug. Chanting Hare Krishna, Hare Krishno, Krishna Krishna, Hare Hare, Hare Rama, Hare Rama, Rama Rama, Hare Hare. This is also drug, but it is not bad. It is very nice. It is the best drug because it awakens your spiritual consciousness</div>
+                    </div>                    
+                    <!-- Continue with more messages as needed -->
+                </div> 
+                <input  class="txt-type-area" type="text" placeholder="Type your message...">
+            </div>
+            <button class="try-button">Try Chat</button>
+        </div>
+
+        
+        </div>
+        <h3>All Leaders are readers. As we know, Knowledge, is power, and one needs the knowledge to grow in life, so we
+            have inculcated some of the most useful books, meant for holistic development.</h3>
+
+        <i>
+            <h3> "Leaders are readers.Knowledge is power" </h3>
+        </i>
+        <div class="Sk-box" id="videoContainer">
+            <div class="Sk-header">Preview access</div>
+
+            <div class="Sk-title"> <span class="gradient-text">Read Books</span></div>
+
+            <div class="Sk-description">
+
+                <iframe src="https://vedic-puce.vercel.app" width="100%" height="400px" frameborder="0"></iframe>
+            </div>
+            <button class="try-button">Let's Read?</button>
+        </div>
+        <h3>
+            Find peace and solace amidst life's challenges via <span class="gradient-text">Mantra meditation</span>.
+            Access digital chanting beads for effortless chanting, drawing from diverse spiritual traditions.
+        </h3>
+        <i>
+            <h3>"In the age of quarrels and depression, find solace in chanting."</h3>
+        </i>
+        <div class="Sk-box" id="videoContainer">
+            <div class="Sk-header">Preview access</div>
+            <div class="Sk-title"> <span class="gradient-text">Mantra Meditation</span></div>
+            <div class="Sk-description">
+                <iframe src="https://chanting-kappa.vercel.app/" width="100%" height="500px" frameborder="0"></iframe>
+
+            </div>
+            <button class="try-button">Try Chanting</button>
+        </div>
+        </div>
+        <h3>Embark on a journey of self-discovery with our <span class="gradient-text"> Challenge Game</span>. Over 50
+            days, engage in a series of 50 tasks designed to foster focus and promote a winning, healthy lifestyle.</h3>
+
+        <i>
+            <h3> "Embrace the challenge and unlock your potential." </h3>
+        </i>
+        <div class="Sk-box" id="videoContainer">
+            <div class="Sk-header">Preview access</div>
+
+            <div class="Sk-title"> <span class="gradient-text">The Challenge Game</span></div>
+
+            <div class="Sk-description">
+
+                <img src="g2.png" alt="Image" width="350">
+
+                </video>
+
+            </div>
+            <button class="try-button">Let's Play?</button>
+        </div>
+        <h3>
+            Find peace and solace amidst life's challenges via <span class="gradient-text">Mantra meditation</span>.
+            Access digital chanting beads for effortless chanting, drawing from diverse spiritual traditions.
+        </h3>
+        <i>
+            <h3>"In the age of quarrels and depression, find solace in chanting."</h3>
+        </i>
+        <div class="Sk-box" id="videoContainer">
+            <div class="Sk-header">Preview access</div>
+            <div class="Sk-title"> <span class="gradient-text"> Read Books</span></div>
+            <div class="Sk-description">
+                <iframe src="https://vedic-puce.vercel.app" width="100%" height="400px" frameborder="0"></iframe>
+            </div>
+            <button class="try-button">Try Chanting</button>
+        </div>
+        </div>
+        <h3>
+            Find peace and solace amidst life's challenges via <span class="gradient-text">Mantra meditation</span>.
+            Access digital chanting beads for effortless chanting, drawing from diverse spiritual traditions.
+        </h3>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/4a3b1f73a2.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+
+</body>
+</html>
