@@ -252,7 +252,7 @@
                 </div> 
                 <input  class="txt-type-area" type="text" placeholder="Type your message...">
             </div>
-            <button class="try-button">Try Chat</button>
+            <button id="chat-sakha-button" class="try-button">Try Chat</button>
         </div>
 
         
@@ -336,6 +336,15 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://kit.fontawesome.com/4a3b1f73a2.js" crossorigin="anonymous"></script>
     <script src="./index.js"></script>
+    <script>
+    var button = document.getElementById("chat-sakha-button");
 
+// Add event listener to the button
+button.addEventListener("click", function() {
+    // Redirect to the specific link when the button is clicked
+    window.location.href = "https://signin.sakha.chat"; // Replace "https://example.com" with your desired link
+});
+        
+    </script>
 </body>
 </html>
