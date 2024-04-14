@@ -272,7 +272,7 @@
 
                 <iframe src="https://vedic-puce.vercel.app" width="100%" height="400px" frameborder="0"></iframe>
             </div>
-            <button class="try-button">Let's Read?</button>
+            <button id="chat-vedicBook-button" class="try-button">Let's Read?</button>
         </div>
         <h3>
             Find peace and solace amidst life's challenges via <span class="gradient-text">Mantra meditation</span>.
@@ -288,7 +288,7 @@
                 <iframe src="https://chanting-kappa.vercel.app/" width="100%" height="500px" frameborder="0"></iframe>
 
             </div>
-            <button class="try-button">Try Chanting</button>
+            <button id="chat-chanting-button" class="try-button">Try Chanting</button>
         </div>
         </div>
         <h3>Embark on a journey of self-discovery with our <span class="gradient-text"> Challenge Game</span>. Over 50
@@ -309,7 +309,7 @@
                 </video>
 
             </div>
-            <button class="try-button">Let's Play?</button>
+            <button id="chat-games-button" class="try-button">Let's Play?</button>
         </div>
         <h3>
             Find peace and solace amidst life's challenges via <span class="gradient-text">Mantra meditation</span>.
@@ -324,7 +324,7 @@
             <div class="Sk-description">
                 <iframe src="https://vedic-puce.vercel.app" width="100%" height="400px" frameborder="0"></iframe>
             </div>
-            <button class="try-button">Try Chanting</button>
+            <button id="chat-vedicBookRamayana-button" class="try-button">Try Chanting</button>
         </div>
         </div>
         <h3>
@@ -343,6 +343,41 @@
 button.addEventListener("click", function() {
     // Redirect to the specific link when the button is clicked
     window.location.href = "https://signin.sakha.chat"; // Replace "https://example.com" with your desired link
+});
+
+            var button = document.getElementById("chat-vedicBook-button");
+
+// Add event listener to the button
+button.addEventListener("click", function() {
+    // Redirect to the specific link when the button is clicked
+    window.location.href = "https://vedic.sakha.chat"; // Replace "https://example.com" with your desired link
+});
+
+
+            var button = document.getElementById("chat-games-button");
+
+// Add event listener to the button
+button.addEventListener("click", function() {
+    // Redirect to the specific link when the button is clicked
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfxyW-U5oXYUr3l1uQc1FnUNMUpisZB9bZ4eIyyoV7zVXMuSQ/viewform?usp=sf_link"; // Replace "https://example.com" with your desired link
+});
+
+
+            var button = document.getElementById("chat-chanting-button");
+
+// Add event listener to the button
+button.addEventListener("click", function() {
+    // Redirect to the specific link when the button is clicked
+    window.location.href = "https://chant.sakha.chat"; // Replace "https://example.com" with your desired link
+});
+
+
+            var button = document.getElementById("chat-vedicBookRamayana-button");
+
+// Add event listener to the button
+button.addEventListener("click", function() {
+    // Redirect to the specific link when the button is clicked
+    window.location.href = "https://vedic.sakha.chat"; // Replace "https://example.com" with your desired link
 });
         
     </script>
